@@ -1,5 +1,8 @@
-> Brand-New Standard ERC-6551C - Cross-Chain Non-fungible Token Bound Accounts
+# Vision
+Horcross, the captivating multi-verse NFT, follow ERC-6551 standard. Just as the Horcruxes in J.K. Rowling's fantastical universe served as vessels for preserving and safeguarding fragments of the soul. Horcross aims to encapsulate the unique essence of digital art, tokens, and collectibles across multiple chains. We forever united by the spirit of "All For One, One For All" World in NFT community!
 
+> Brand-New Standard ERC-6551C - Cross-Chain Non-fungible Token Bound Accounts
+# What is Horcross ?
 [ERC-6551]((https://eips.ethereum.org/EIPS/eip-6551)) is a persona to entry meta-verse. Contains transaction history and assets and control by the source NFT. Within it ever make NFT tell story and store value.
 
 Horcross is a solution that addresses the limitation of [ERC-6551](https://eips.ethereum.org/EIPS/eip-6551), which only allow generating EVM-compatible addresses on the chain to which the NFT belongs. 
@@ -9,7 +12,7 @@ Through the **CrossTalk** feature of Router Protocol, Horcross enables the cross
 Horcorss can enhance the cross-chain capability of your NFTs and empower you to control assets across multiple universes. This enables more GameFi projects to utilize NFTs on the main chain as the primary validated assets for Token Bound, while also allowing for the composability of digital assets and their association with user accounts.
 
 ---
-## Demo Link
+# Demo Link
 
 - **Horcross** (**ERC-6551C**: send request contract): [`0x584D36C268C7958B37ec9712E9E99149CD2Ca129`](https://goerli.etherscan.io/address/0x584D36C268C7958B37ec9712E9E99149CD2Ca129)
 
@@ -23,14 +26,14 @@ Horcorss can enhance the cross-chain capability of your NFTs and empower you to 
 
 - Demo Video: [YouTube]()
 
-## Our Tech Stack:
+# Our Tech Stack:
 
 1. **CrossTalk** [`ERC6551RegistryAndReadCall.sol`](https://github.com/Horcross/smartcontract/blob/main/contracts/ERC6551RegistryAndReadCall.sol) : [RouterProtocal](https://www.routerprotocol.com/) Cross Chain Gateway Library, Use it to send the request to the destChain.
 2. **Solidity** [`contracts`]([./contracts/](https://github.com/Horcross/smartcontract)): ERC-6551C, follow standard from ERC-6551 and add gateway to send crosstalk message
 3. **NextJS** [`frontend`](https://github.com/Horcross/frontend): With WAGMI and connectKIT, provide multi chains connection ability
 4. **GraphQL** & Alchemy NFT SDK [Subgraph](https://github.com/Horcross/subgraph): Accelerate the retrieval of cross-chain data
 
-## Project
+# Project
 Our project aims to address the limitation of EIP-6551, which only allow generating contract wallet addresses on the chain to which the NFT belongs. To expand its functionality, we have adopted Router Protocol's cross-chain communication method called CrossTalk. Through this solution, we enable the generation of addresses on any blockchain using EIP-6551 implemented on any blockchain.
 
 Our solution has the following features and advantages:
@@ -43,7 +46,7 @@ Our solution has the following features and advantages:
 
 Our project is dedicated to advancing the blockchain ecosystem by breaking the limitations of ERC-6551 in address generation and offering more choices and flexibility. We believe that this will bring more opportunities and innovations to users and developers, driving the application and adoption of blockchain technology.
 
-## How we do it?
+# How we do it?
 User can choose the chain on which they want to deploy Token Bonding Accounts (TBA). Once the selection is made, it will be executed by the smart contract, and the TBA address can be obtained by returning it through CrossTalk.
 
 Step 1. User choose the chain deploy Token Bound Account from source chain (**Goerli**)
